@@ -2,7 +2,7 @@ html {
   font-family: "Fredoka One", sans-serif;
   border-top: 5px solid #b3fbff;
   border-bottom: 5px solid #b3fbff;
-  background-image: repeating-linear-gradient(-35deg, #c9fcff, #d4fdff 2%)
+  background-image: repeating-linear-gradient(-35deg, #c9fcff, #d4fdff 2%);
 }
 
 section {
@@ -11,6 +11,7 @@ section {
 
 h1 {
   transform: rotate(-10deg);
+  color: #990073;
 }
 
 img {
@@ -24,7 +25,7 @@ p {
 
 .text {
   position: relative;
-  color: #c09
+  color: #c09;
 }
 
 .btn {
