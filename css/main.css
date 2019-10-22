@@ -1,5 +1,7 @@
 html {
   font-family: "Fredoka One", sans-serif;
+  border-top: 5px solid #b3fbff;
+  border-bottom: 5px solid #b3fbff;
 }
 
 section {
@@ -17,6 +19,7 @@ img {
 p {
   max-width: 19em;
   transform: rotate(-10deg);
+}
 
 .text {
   position: relative;
@@ -26,4 +29,16 @@ p {
 .btn {
   border-color: #990073;
   color: #c09;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.btn-ghost {
+  color: #990073;
+}
+
+.btn-ghost:hover {
+  color: #fff;
 }
