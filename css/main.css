@@ -5,3 +5,7 @@ html {
 section {
   display: flex;
 }
+
+img {
+  width: 10em;
+}
