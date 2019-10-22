@@ -9,3 +9,7 @@ section {
 img {
   width: 10em;
 }
+
+p {
+  max-width: 19em;
+}
