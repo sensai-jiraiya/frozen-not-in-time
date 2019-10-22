@@ -12,6 +12,7 @@ section {
 h1 {
   transform: rotate(-10deg);
   color: #990073;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5)
 }
 
 img {
@@ -21,6 +22,7 @@ img {
 p {
   max-width: 19em;
   transform: rotate(-10deg);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5)
 }
 
 .text {
