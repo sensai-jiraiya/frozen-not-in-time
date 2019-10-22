@@ -28,6 +28,7 @@ p {
 .text {
   position: relative;
   color: #c09;
+  padding-left: 5%;
 }
 
 .btn {
