@@ -2,6 +2,7 @@ html {
   font-family: "Fredoka One", sans-serif;
   border-top: 5px solid #b3fbff;
   border-bottom: 5px solid #b3fbff;
+  background-image: repeating-linear-gradient(-35deg, #c9fcff, #d4fdff 2%)
 }
 
 section {
