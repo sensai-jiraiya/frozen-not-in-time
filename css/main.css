@@ -1,3 +1,7 @@
 html {
   font-family: 'Fredoka One', sans-serif;
 }
+
+section {
+  display: flex;
+}
