@@ -13,3 +13,13 @@ img {
 p {
   max-width: 19em;
 }
+
+.text {
+  position: relative;
+  color: #c09
+}
+
+.btn {
+  border-color: #990073;
+  color: #c09;
+}
