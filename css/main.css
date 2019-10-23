@@ -10,13 +10,15 @@ section {
 }
 
 h1 {
-  transform: rotate(-7deg);
+  transform: rotate(-8deg);
   color: #990073;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+  margin: 0;
+  margin-left: -15px;
 }
 
 img {
-  max-width: 7em;
+  max-width: 6em;
 }
 
 .chocolate,
@@ -31,14 +33,14 @@ img {
 
 p {
   max-width: 19em;
-  transform: rotate(-7deg);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+  transform: rotate(-5deg);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
 }
 
 .text {
   position: relative;
   color: #c09;
-  padding-left: 5%;
+  padding-left: 6%;
 }
 
 .btn {
@@ -78,20 +80,21 @@ p {
 
 .animation {
   min-height: 480px;
+  position: relative;
 }
 
 .cherry {
   z-index: 3;
-  height: 190px;
+  height: 200px;
   position: absolute;
   top: -600px;
-  right: 100px;
+  right: 110px;
   animation: cherry-fall .5s 1s linear forwards;
 }
 
 .vanilla {
   z-index: 2;
-  height: 180px;
+  height: 200px;
   position: absolute;
   top: -500px;
   right: 76px;
@@ -100,7 +103,7 @@ p {
 
 .chocolate {
   z-index: 1;
-  height: 180px;
+  height: 210px;
   position: absolute;
   top: -400px;
   right: 66px;
@@ -108,7 +111,7 @@ p {
 }
 
 .mint {
-  height: 180px;
+  height: 160px;
   position: absolute;
   top: -300px;
   right: 72px;
@@ -119,7 +122,7 @@ p {
   height: 180px;
   position: absolute;
   top: -200px;
-  right: 72px;
+  right: 80px;
   animation: cone-fall .5s linear forwards;
 }
 
@@ -131,8 +134,8 @@ p {
   }
 
   100% {
-    top: 300px;
-    right: 72px;
+    top: 310px;
+    right: 80px;
   }
 
 }
@@ -159,7 +162,7 @@ p {
   }
 
   100% {
-    top: 100px;
+    top: 90px;
     right: 66px;
   }
 
@@ -173,7 +176,7 @@ p {
   }
 
   100% {
-    top: 36px;
+    top: 26px;
     right: 76px;
   }
 
@@ -187,8 +190,8 @@ p {
   }
 
   100% {
-    top: -43px;
-    right: 100px;
+    top: -42px;
+    right: 110px;
   }
 
 }
