@@ -10,19 +10,29 @@ section {
 }
 
 h1 {
-  transform: rotate(-10deg);
+  transform: rotate(-7deg);
   color: #990073;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
 }
 
 img {
-  width: 10em;
+  max-width: 7em;
+}
+
+.chocolate,
+.mint,
+.vanilla {
+  max-width: 7em;
+}
+
+.berry {
+  max-width: 3em;
 }
 
 p {
   max-width: 19em;
-  transform: rotate(-10deg);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+  transform: rotate(-7deg);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
 }
 
 .text {
@@ -55,7 +65,7 @@ p {
   }
 
   50% {
-    opacity: .5;
+    opacity: .1;
     filter: blur(5px);
   }
 
@@ -72,10 +82,10 @@ p {
 
 .cherry {
   z-index: 3;
-  height: 180px;
+  height: 190px;
   position: absolute;
   top: -600px;
-  right: 72px;
+  right: 100px;
   animation: cherry-fall .5s 1s linear forwards;
 }
 
@@ -173,12 +183,12 @@ p {
 
   0% {
     top: -600px;
-    right: 72px;
+    right: 60px;
   }
 
   100% {
     top: -43px;
-    right: 72px;
+    right: 100px;
   }
 
 }
